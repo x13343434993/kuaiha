@@ -19,12 +19,6 @@ class StoreTest extends TestCase
         ])
     }
 
-    public function test_full_name_accessor_works()
-    {
-        $store = factory(Store::class)->make([
-            'name' => '雅迪',
-            'phone' => '13343434993'
-        ])
-    }
+
 
 }
